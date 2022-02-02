@@ -1,7 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input {
+  display: flex;
+  gap: 0.5rem;
+}
 #canvas {
-  margin-top: 1em;
-  height: 80vw;
-  width: 80vw;
+  margin: 1em;
+  height: 840px;
+  width: 840px;
   border: 1px solid black;
   display: grid;
 }

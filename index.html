@@ -10,12 +10,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="setGrid(4)">
   <h1>Etch That Sketch!</h1>
-  <input type="number" placeholder="Grid Size" id="size">
-  <button onclick="setGrid()">Submit</button>
-  <button onclick="reset()">Reset</button>
+  <div id="input"><input type="number" placeholder="Grid Size" id="size">
+    <button onclick="storeSize()">Submit</button>
+    <button onclick="reset()">Reset</button>
+  </div>
   <div id="canvas"></div>
+  <div id="footer">The Odin Project | <a href="https://github.com/RaidersFan/etch-a-sketch">Github</a></div>
+
 </body>
 
 </html>
