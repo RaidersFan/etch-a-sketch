@@ -4,7 +4,6 @@ function reset() {
   canvas.innerHTML = ""
 }
 
-
 function storeSize() {
   size = document.getElementById('size').value
   document.getElementById('size').value = ""
